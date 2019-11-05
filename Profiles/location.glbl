@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>location</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'C:\\Users\\sudheer.indlamudi\\Downloads\\india.com v-1.2.4.apk'</initValue>
+      <name>apk</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

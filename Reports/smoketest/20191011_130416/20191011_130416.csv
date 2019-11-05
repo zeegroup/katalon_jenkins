@@ -1,0 +1,370 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+smoketest,,neighbour smoke test,,2019-10-11 13:05:50,2019-10-11 13:24:36,18m - 46.132s,INCOMPLETE
+,,,,,,,
+Test Cases/Create_Poll,,,,2019-10-11 13:05:50,2019-10-11 13:06:54,1m - 4.475s,PASSED
+"startApplication(apk, true)",,,,2019-10-11 13:05:50,2019-10-11 13:06:10,19.806s,PASSED
+"tap(findTestObject(""Create_poll/android.widget.TextView0 - NEXT""), 0)",,,,2019-10-11 13:06:10,2019-10-11 13:06:14,4.683s,PASSED
+"tap(findTestObject(""Create_poll/android.widget.TextView0 - LOGIN""), 0)",,,,2019-10-11 13:06:14,2019-10-11 13:06:16,1.655s,PASSED
+"setText(findTestObject(""Create_poll/android.widget.EditText0 - Email ID""), ""sudheer@mailnesia.com"", 0)",,,,2019-10-11 13:06:16,2019-10-11 13:06:17,1.412s,PASSED
+"setText(findTestObject(""Create_poll/android.widget.EditText0 - Password""), ""1234567"", 0)",,,,2019-10-11 13:06:17,2019-10-11 13:06:19,2.032s,PASSED
+"tap(findTestObject(""Create_poll/android.widget.ImageButton0""), 0)",,,,2019-10-11 13:06:19,2019-10-11 13:06:21,1.531s,PASSED
+"tap(findTestObject(""Create_poll/android.widget.TextView0 - LOGIN (1)""), 0)",,,,2019-10-11 13:06:21,2019-10-11 13:06:22,1.414s,PASSED
+"tap(findTestObject(""Create_poll/android.widget.FrameLayout0""), 0)",,,,2019-10-11 13:06:22,2019-10-11 13:06:28,5.867s,PASSED
+"tap(findTestObject(""Create_poll/android.widget.TextView0 - Poll""), 0)",,,,2019-10-11 13:06:28,2019-10-11 13:06:30,1.569s,PASSED
+"setText(findTestObject(""Create_Poll_1/android.widget.EditText0 - Ask a question.""), ""Neighbourhood Automation using katalon "", 0)",,,,2019-10-11 13:06:30,2019-10-11 13:06:31,1.361s,PASSED
+"setText(findTestObject(""Create_Poll_1/android.widget.EditText0 - Option 1 (Max 25 chars)""), ""yes"", 0)",,,,2019-10-11 13:06:31,2019-10-11 13:06:33,2.045s,PASSED
+"setText(findTestObject(""Create_Poll_1/android.widget.EditText0 - Option 2 (Max 25 chars)""), ""no"", 0)",,,,2019-10-11 13:06:33,2019-10-11 13:06:35,1.891s,PASSED
+"tap(findTestObject(""Create_Poll_1/android.widget.TextView0 - 1 Week""), 0)",,,,2019-10-11 13:06:35,2019-10-11 13:06:39,4.170s,PASSED
+"tap(findTestObject(""Create_Poll_1/android.widget.TextView0 - 1 Day""), 0)",,,,2019-10-11 13:06:39,2019-10-11 13:06:40,1.175s,PASSED
+"tap(findTestObject(""Create_Poll_1/android.widget.TextView0 - NEXT (1)""), 0)",,,,2019-10-11 13:06:40,2019-10-11 13:06:42,1.517s,PASSED
+"tap(findTestObject(""Create_Poll_1/android.widget.TextView0 - NEXT (1)""), 0)",,,,2019-10-11 13:06:42,2019-10-11 13:06:43,1.088s,PASSED
+"tap(findTestObject(""Create_Poll_1/android.widget.FrameLayout0 (1)""), 0)",,,,2019-10-11 13:06:43,2019-10-11 13:06:47,4.310s,PASSED
+"tap(findTestObject(""Create_Poll_1/android.widget.LinearLayout0""), 0)",,,,2019-10-11 13:06:47,2019-10-11 13:06:51,3.537s,PASSED
+"tap(findTestObject(""Create_Poll_1/android.widget.TextView0 - Yes""), 0)",,,,2019-10-11 13:06:51,2019-10-11 13:06:52,1.291s,PASSED
+closeApplication(),,,,2019-10-11 13:06:52,2019-10-11 13:06:54,1.931s,PASSED
+,,,,,,,
+Test Cases/User_Edit _Location,,,,2019-10-11 13:06:54,2019-10-11 13:07:58,1m - 3.675s,PASSED
+"startApplication(apk, true)",,,,2019-10-11 13:06:54,2019-10-11 13:07:17,22.959s,PASSED
+"tap(findTestObject(""User_Edit_Location/android.widget.TextView0 - NEXT""), 0)",,,,2019-10-11 13:07:17,2019-10-11 13:07:22,4.431s,PASSED
+"tap(findTestObject(""User_Edit_Location/android.widget.TextView0 - LOGIN""), 0)",,,,2019-10-11 13:07:22,2019-10-11 13:07:24,2.153s,PASSED
+"setText(findTestObject(""User_Edit_Location/android.widget.EditText0 - Email ID""), ""sudheer@mailnesia.com"", 0)",,,,2019-10-11 13:07:24,2019-10-11 13:07:25,1.417s,PASSED
+"setText(findTestObject(""User_Edit_Location/android.widget.EditText0 - Password""), ""1234567"", 0)",,,,2019-10-11 13:07:25,2019-10-11 13:07:28,2.440s,PASSED
+"tap(findTestObject(""User_Edit_Location/android.widget.ImageButton0""), 0)",,,,2019-10-11 13:07:28,2019-10-11 13:07:29,1.496s,PASSED
+"tap(findTestObject(""User_Edit_Location/android.widget.TextView0 - LOGIN (1)""), 0)",,,,2019-10-11 13:07:29,2019-10-11 13:07:31,1.420s,PASSED
+"tap(findTestObject(""User_Edit_Location/android.widget.FrameLayout0""), 0)",,,,2019-10-11 13:07:31,2019-10-11 13:07:36,5.228s,PASSED
+"tap(findTestObject(""User_Edit_Location/android.widget.TextView0 - Settings""), 0)",,,,2019-10-11 13:07:36,2019-10-11 13:07:37,1.476s,PASSED
+"tap(findTestObject(""User_Edit_Location/android.widget.TextView0 - Account""), 0)",,,,2019-10-11 13:07:37,2019-10-11 13:07:38,0.896s,PASSED
+"tap(findTestObject(""User_Edit_Location/android.widget.TextView0 - Location""), 0)",,,,2019-10-11 13:07:38,2019-10-11 13:07:39,0.965s,PASSED
+"tap(findTestObject(""User_Edit_Location/android.widget.TextView0 - EDIT LOCATION""), 0)",,,,2019-10-11 13:07:39,2019-10-11 13:07:42,2.427s,PASSED
+"setText(findTestObject(""User_Edit_Location/android.widget.EditText0 - HOUSEFLAT.NO""), ""Near Kondapur Flot no 6_155/A"", 0)",,,,2019-10-11 13:07:42,2019-10-11 13:07:43,1.760s,PASSED
+"setText(findTestObject(""User_Edit_Location/android.widget.EditText0 - LANDMARK""), ""Near RDO office "", 0)",,,,2019-10-11 13:07:43,2019-10-11 13:07:45,1.961s,PASSED
+"tap(findTestObject(""User_Edit_Location/android.widget.TextView0 - SAVE AND PROCEED""), 0)",,,,2019-10-11 13:07:45,2019-10-11 13:07:48,2.560s,PASSED
+"tap(findTestObject(""User_Edit_Location/android.widget.TextView0 - CONFIRM LOCATION""), 0)",,,,2019-10-11 13:07:48,2019-10-11 13:07:50,1.656s,PASSED
+"tap(findTestObject(""User_Edit_Location/android.widget.ImageView0""), 0)",,,,2019-10-11 13:07:50,2019-10-11 13:07:51,1.630s,PASSED
+"tap(findTestObject(""User_Edit_Location/android.widget.LinearLayout0""), 0)",,,,2019-10-11 13:07:51,2019-10-11 13:07:55,3.592s,PASSED
+"tap(findTestObject(""User_Edit_Location/android.widget.TextView0 - Yes""), 0)",,,,2019-10-11 13:07:55,2019-10-11 13:07:56,1.279s,PASSED
+closeApplication(),,,,2019-10-11 13:07:56,2019-10-11 13:07:58,1.816s,PASSED
+,,,,,,,
+Test Cases/Explore_All Members,,,,2019-10-11 13:07:58,2019-10-11 13:08:52,54.319s,PASSED
+"startApplication(apk, true)",,,,2019-10-11 13:07:58,2019-10-11 13:08:21,23.322s,PASSED
+"tap(findTestObject(""Explore_All_Members/android.widget.TextView0 - NEXT""), 0)",,,,2019-10-11 13:08:21,2019-10-11 13:08:26,4.304s,PASSED
+"tap(findTestObject(""Explore_All_Members/android.widget.TextView0 - LOGIN""), 0)",,,,2019-10-11 13:08:26,2019-10-11 13:08:27,1.544s,PASSED
+"setText(findTestObject(""Explore_All_Members/android.widget.EditText0 - Email ID""), ""sudheer@mailnesia.com"", 0)",,,,2019-10-11 13:08:27,2019-10-11 13:08:29,1.413s,PASSED
+"setText(findTestObject(""Explore_All_Members/android.widget.EditText0 - Password""), ""1234567"", 0)",,,,2019-10-11 13:08:29,2019-10-11 13:08:31,2.029s,PASSED
+"tap(findTestObject(""Explore_All_Members/android.widget.ImageButton0""), 0)",,,,2019-10-11 13:08:31,2019-10-11 13:08:32,1.503s,PASSED
+"tap(findTestObject(""Explore_All_Members/android.widget.TextView0 - LOGIN (1)""), 0)",,,,2019-10-11 13:08:32,2019-10-11 13:08:33,1.422s,PASSED
+"tap(findTestObject(""Explore_All_Members/android.widget.FrameLayout0""), 0)",,,,2019-10-11 13:08:33,2019-10-11 13:08:40,6.062s,PASSED
+"tap(findTestObject(""Explore_All_Members/android.widget.TextView0 - View All""), 0)",,,,2019-10-11 13:08:40,2019-10-11 13:08:41,1.471s,PASSED
+"tap(findTestObject(""Explore_All_Members/android.widget.ImageButton0 (1)""), 0)",,,,2019-10-11 13:08:41,2019-10-11 13:08:45,3.719s,PASSED
+"tap(findTestObject(""Explore_All_Members/android.widget.FrameLayout0 (1)""), 0)",,,,2019-10-11 13:08:45,2019-10-11 13:08:46,1.260s,PASSED
+"tap(findTestObject(""Explore_All_Members/android.widget.LinearLayout0""), 0)",,,,2019-10-11 13:08:46,2019-10-11 13:08:49,2.963s,PASSED
+"tap(findTestObject(""Explore_All_Members/android.widget.TextView0 - Yes""), 0)",,,,2019-10-11 13:08:49,2019-10-11 13:08:50,1.358s,PASSED
+closeApplication(),,,,2019-10-11 13:08:50,2019-10-11 13:08:52,1.846s,PASSED
+,,,,,,,
+Test Cases/Post_Buy,,,,2019-10-11 13:08:52,2019-10-11 13:09:58,1m - 6.152s,PASSED
+"startApplication(apk, true)",,,,2019-10-11 13:08:52,2019-10-11 13:09:15,23.122s,PASSED
+"tap(findTestObject(""Post_Buy/android.widget.TextView0 - NEXT""), 0)",,,,2019-10-11 13:09:15,2019-10-11 13:09:20,4.434s,PASSED
+"tap(findTestObject(""Post_Buy/android.widget.TextView0 - LOGIN""), 0)",,,,2019-10-11 13:09:20,2019-10-11 13:09:21,1.497s,PASSED
+"setText(findTestObject(""Post_Buy/android.widget.EditText0 - Email ID""), ""sudheer@mailnesia.com"", 0)",,,,2019-10-11 13:09:21,2019-10-11 13:09:23,1.403s,PASSED
+"setText(findTestObject(""Post_Buy/android.widget.EditText0 - Password""), ""1234567"", 0)",,,,2019-10-11 13:09:23,2019-10-11 13:09:25,1.960s,PASSED
+"tap(findTestObject(""Post_Buy/android.widget.ImageButton0""), 0)",,,,2019-10-11 13:09:25,2019-10-11 13:09:26,1.542s,PASSED
+"tap(findTestObject(""Post_Buy/android.widget.TextView0 - LOGIN (1)""), 0)",,,,2019-10-11 13:09:26,2019-10-11 13:09:28,1.431s,PASSED
+"tap(findTestObject(""Post_Buy/android.widget.FrameLayout0""), 0)",,,,2019-10-11 13:09:28,2019-10-11 13:09:32,4.492s,PASSED
+"tap(findTestObject(""Post_General/android.widget.TextView0 - Post""), 0)",,,,2019-10-11 13:09:32,2019-10-11 13:09:35,2.670s,PASSED
+"tap(findTestObject(""Post_Buy/android.widget.RadioButton0 - Buy Sell or Rent""), 0)",,,,2019-10-11 13:09:35,2019-10-11 13:09:36,1.379s,PASSED
+"tap(findTestObject(""Post_Buy/android.widget.TextView0 - NEXT (1)""), 0)",,,,2019-10-11 13:09:36,2019-10-11 13:09:38,1.389s,PASSED
+"setText(findTestObject(""Post_Buy/android.widget.EditText0 - Title""), ""Buy a oneplus mobile"", 0)",,,,2019-10-11 13:09:38,2019-10-11 13:09:39,1.349s,PASSED
+"tap(findTestObject(""Post_Buy/android.widget.Switch0 - Off""), 0)",,,,2019-10-11 13:09:39,2019-10-11 13:09:41,1.973s,PASSED
+"setText(findTestObject(""Post_Buy/android.widget.EditText0 - Details (size color condition etc.)""), ""Price=100000"", 0)",,,,2019-10-11 13:09:41,2019-10-11 13:09:42,1.525s,PASSED
+"tap(findTestObject(""Post_Buy/android.widget.TextView0 - NEXT (2)""), 0)",,,,2019-10-11 13:09:42,2019-10-11 13:09:44,1.537s,PASSED
+"tap(findTestObject(""Post_Buy/android.widget.TextView0 - NEXT (2)""), 0)",,,,2019-10-11 13:09:44,2019-10-11 13:09:47,2.564s,PASSED
+"tap(findTestObject(""Post_Buy/android.widget.TextView0 - POST""), 0)",,,,2019-10-11 13:09:47,2019-10-11 13:09:50,3.807s,PASSED
+"tap(findTestObject(""Post_Buy/android.widget.FrameLayout0 (1)""), 0)",,,,2019-10-11 13:09:50,2019-10-11 13:09:52,1.358s,PASSED
+"tap(findTestObject(""Post_Buy/android.widget.LinearLayout0 (1)""), 0)",,,,2019-10-11 13:09:52,2019-10-11 13:09:55,3.542s,PASSED
+"tap(findTestObject(""Post_Buy/android.widget.TextView0 - Yes""), 0)",,,,2019-10-11 13:09:55,2019-10-11 13:09:57,1.289s,PASSED
+closeApplication(),,,,2019-10-11 13:09:57,2019-10-11 13:09:58,1.796s,PASSED
+,,,,,,,
+Test Cases/Post_General,,,,2019-10-11 13:09:58,2019-10-11 13:10:59,1m - 1.163s,PASSED
+"startApplication(apk, true)",,,,2019-10-11 13:09:58,2019-10-11 13:10:20,21.593s,PASSED
+"tap(findTestObject(""Post_General/android.widget.TextView0 - NEXT""), 0)",,,,2019-10-11 13:10:20,2019-10-11 13:10:24,4.421s,PASSED
+"tap(findTestObject(""Post_General/android.widget.TextView0 - LOGIN""), 0)",,,,2019-10-11 13:10:24,2019-10-11 13:10:26,1.557s,PASSED
+"setText(findTestObject(""Post_General/android.widget.EditText0 - Email ID""), ""sudheer@mailnesia.com"", 0)",,,,2019-10-11 13:10:26,2019-10-11 13:10:27,1.444s,PASSED
+"setText(findTestObject(""Post_General/android.widget.EditText0 - Password""), ""1234567"", 0)",,,,2019-10-11 13:10:27,2019-10-11 13:10:29,2.012s,PASSED
+"tap(findTestObject(""Post_General/android.widget.ImageButton0""), 0)",,,,2019-10-11 13:10:29,2019-10-11 13:10:31,1.831s,PASSED
+"tap(findTestObject(""Post_General/android.widget.TextView0 - LOGIN (1)""), 0)",,,,2019-10-11 13:10:31,2019-10-11 13:10:33,1.379s,PASSED
+"tap(findTestObject(""Post_General/android.widget.FrameLayout0""), 0)",,,,2019-10-11 13:10:33,2019-10-11 13:10:38,5.426s,PASSED
+"tap(findTestObject(""Post_General/android.widget.TextView0 - Post""), 0)",,,,2019-10-11 13:10:38,2019-10-11 13:10:40,2.014s,PASSED
+"tap(findTestObject(""Post_General/android.widget.TextView0 - NEXT (1)""), 0)",,,,2019-10-11 13:10:40,2019-10-11 13:10:41,1.388s,PASSED
+"setText(findTestObject(""Post_General/android.widget.EditText0 - Subject""), ""Automation Katalon studio"", 0)",,,,2019-10-11 13:10:41,2019-10-11 13:10:43,1.344s,PASSED
+"setText(findTestObject(""Post_General/android.widget.EditText0 - Message""), ""Take up one idea. Make that one idea your life - think of it, dream of it, live on that idea. Let the brain, muscles, nerves, every part of your body, be full of that idea, and just leave every other idea alone. This is the way to success"", 0)",,,,2019-10-11 13:10:43,2019-10-11 13:10:45,1.949s,PASSED
+"tap(findTestObject(""Post_General/android.widget.TextView0 - NEXT (2)""), 0)",,,,2019-10-11 13:10:45,2019-10-11 13:10:47,1.961s,PASSED
+"tap(findTestObject(""Post_General/android.widget.TextView0 - POST (1)""), 0)",,,,2019-10-11 13:10:47,2019-10-11 13:10:51,4.233s,PASSED
+"tap(findTestObject(""Post_General/android.widget.FrameLayout0 (1)""), 0)",,,,2019-10-11 13:10:51,2019-10-11 13:10:53,1.793s,PASSED
+"tap(findTestObject(""Post_General/android.widget.LinearLayout0""), 0)",,,,2019-10-11 13:10:53,2019-10-11 13:10:56,3.536s,PASSED
+"tap(findTestObject(""Post_General/android.widget.TextView0 - Yes""), 0)",,,,2019-10-11 13:10:56,2019-10-11 13:10:58,1.283s,PASSED
+closeApplication(),,,,2019-10-11 13:10:58,2019-10-11 13:10:59,1.904s,PASSED
+,,,,,,,
+Test Cases/Post_Lost_Found,,,,2019-10-11 13:10:59,2019-10-11 13:12:49,1m - 49.781s,PASSED
+"startApplication(apk, true)",,,,2019-10-11 13:11:00,2019-10-11 13:11:20,20.166s,PASSED
+"tap(findTestObject(""Post_Lost_Found/android.widget.TextView0 - NEXT""), 0)",,,,2019-10-11 13:11:20,2019-10-11 13:11:24,4.515s,PASSED
+"tap(findTestObject(""Post_Lost_Found/android.widget.TextView0 - LOGIN""), 0)",,,,2019-10-11 13:11:24,2019-10-11 13:11:26,1.574s,PASSED
+"setText(findTestObject(""Post_Lost_Found/android.widget.EditText0 - Email ID""), ""sudheer@mailnesia.com"", 0)",,,,2019-10-11 13:11:26,2019-10-11 13:11:27,1.391s,PASSED
+"setText(findTestObject(""Post_Lost_Found/android.widget.EditText0 - Password""), ""1234567"", 0)",,,,2019-10-11 13:11:27,2019-10-11 13:11:29,2.026s,PASSED
+"tap(findTestObject(""Post_Lost_Found/android.widget.ImageButton0""), 0)",,,,2019-10-11 13:11:29,2019-10-11 13:11:31,1.500s,PASSED
+"tap(findTestObject(""Post_Lost_Found/android.widget.TextView0 - LOGIN (1)""), 0)",,,,2019-10-11 13:11:31,2019-10-11 13:11:32,1.442s,PASSED
+"tap(findTestObject(""Post_Lost_Found/android.widget.FrameLayout0""), 0)",,,,2019-10-11 13:11:32,2019-10-11 13:11:38,5.476s,PASSED
+"tap(findTestObject(""Post_General/android.widget.TextView0 - Post""), 0)",,,,2019-10-11 13:11:38,2019-10-11 13:11:40,1.848s,PASSED
+"tap(findTestObject(""Post_Lost_Found/android.widget.RadioButton0 - Lost  Found""), 0)",,,,2019-10-11 13:11:40,2019-10-11 13:11:41,1.357s,PASSED
+"tap(findTestObject(""Post_Lost_Found/android.widget.TextView0 - NEXT (1)""), 0)",,,,2019-10-11 13:11:41,2019-10-11 13:11:42,1.306s,PASSED
+Thread.sleep(20000),,,,2019-10-11 13:11:42,2019-10-11 13:12:02,20.005s,PASSED
+"setText(findTestObject(""Post_Lost_Found/android.widget.EditText0 - Subject""), ""Lost my mobile"", 0)",,,,2019-10-11 13:12:02,2019-10-11 13:12:04,1.505s,PASSED
+"setText(findTestObject(""Post_Lost_Found/android.widget.EditText0 - Message""), ""redmi "", 0)",,,,2019-10-11 13:12:04,2019-10-11 13:12:06,1.911s,PASSED
+"tap(findTestObject(""Post_Lost_Found/android.widget.TextView0 - NEXT (2)""), 0)",,,,2019-10-11 13:12:06,2019-10-11 13:12:08,1.992s,PASSED
+"tap(findTestObject(""Post_Lost_Found/android.widget.TextView0 - POST""), 0)",,,,2019-10-11 13:12:08,2019-10-11 13:12:11,3.739s,PASSED
+"tap(findTestObject(""Post_Lost_Found/android.widget.FrameLayout0 (1)""), 0)",,,,2019-10-11 13:12:11,2019-10-11 13:12:13,1.342s,PASSED
+Thread.sleep(30000),,,,2019-10-11 13:12:13,2019-10-11 13:12:43,30.002s,PASSED
+"tap(findTestObject(""Post_Lost_Found/android.widget.LinearLayout0 (1)""), 0)",,,,2019-10-11 13:12:43,2019-10-11 13:12:46,3.529s,PASSED
+"tap(findTestObject(""Post_Lost_Found/android.widget.TextView0 - Yes""), 0)",,,,2019-10-11 13:12:46,2019-10-11 13:12:47,1.267s,PASSED
+closeApplication(),,,,2019-10-11 13:12:47,2019-10-11 13:12:49,1.776s,PASSED
+,,,,,,,
+Test Cases/Post_Rent,,,,2019-10-11 13:12:49,2019-10-11 13:13:57,1m - 8.104s,PASSED
+"startApplication(apk, true)",,,,2019-10-11 13:12:49,2019-10-11 13:13:09,19.211s,PASSED
+"tap(findTestObject(""Post_Rent/android.widget.TextView0 - NEXT""), 0)",,,,2019-10-11 13:13:09,2019-10-11 13:13:13,4.495s,PASSED
+"tap(findTestObject(""Post_Rent/android.widget.TextView0 - LOGIN""), 0)",,,,2019-10-11 13:13:13,2019-10-11 13:13:15,1.537s,PASSED
+"setText(findTestObject(""Post_Rent/android.widget.EditText0 - Email ID""), ""sudheer@mailnesia.com"", 0)",,,,2019-10-11 13:13:15,2019-10-11 13:13:16,1.456s,PASSED
+"setText(findTestObject(""Post_Rent/android.widget.EditText0 - Password""), ""1234567"", 0)",,,,2019-10-11 13:13:16,2019-10-11 13:13:18,2.011s,PASSED
+"tap(findTestObject(""Post_Rent/android.widget.ImageButton0""), 0)",,,,2019-10-11 13:13:18,2019-10-11 13:13:20,1.533s,PASSED
+"tap(findTestObject(""Post_Rent/android.widget.TextView0 - LOGIN (1)""), 0)",,,,2019-10-11 13:13:20,2019-10-11 13:13:21,1.449s,PASSED
+"tap(findTestObject(""Post_Rent/android.widget.FrameLayout0""), 0)",,,,2019-10-11 13:13:21,2019-10-11 13:13:27,5.824s,PASSED
+"tap(findTestObject(""Post_Rent/android.widget.TextView0 - Post""), 0)",,,,2019-10-11 13:13:27,2019-10-11 13:13:29,2.036s,PASSED
+"tap(findTestObject(""Post_Rent/android.widget.RadioButton0 - Buy Sell or Rent""), 0)",,,,2019-10-11 13:13:29,2019-10-11 13:13:30,1.539s,PASSED
+"tap(findTestObject(""Post_Rent/android.widget.TextView0 - NEXT (1)""), 0)",,,,2019-10-11 13:13:30,2019-10-11 13:13:32,1.397s,PASSED
+"tap(findTestObject(""Post_Rent/android.widget.RadioButton0 - Rent""), 0)",,,,2019-10-11 13:13:32,2019-10-11 13:13:33,0.819s,PASSED
+"setText(findTestObject(""Post_Rent/android.widget.EditText0 - Title""), ""The most difficult thing is the decision to act, the rest is merely tenacity. The fears are paper tigers. You can do anything you decide to do. You can act to change and control your life; and the procedure, the process is its own reward"", 0)",,,,2019-10-11 13:13:33,2019-10-11 13:13:34,1.547s,PASSED
+"tap(findTestObject(""Post_Rent/android.widget.Switch0 - Off""), 0)",,,,2019-10-11 13:13:34,2019-10-11 13:13:36,1.616s,PASSED
+"setText(findTestObject(""Post_Rent/android.widget.EditText0 - Details (size color condition etc.)""), ""Do not mind anything that anyone tells you about anyone else. Judge everyone and everything for yourself,Take up one idea. Make that one idea your life - think of it, dream of it, live on that idea. Let the brain, muscles, nerves, every part of your body, be full of that idea, and just leave every other idea alone. This is the way to success"", 0)",,,,2019-10-11 13:13:36,2019-10-11 13:13:37,1.554s,PASSED
+"tap(findTestObject(""Post_Rent/android.widget.TextView0 - NEXT (2)""), 0)",,,,2019-10-11 13:13:37,2019-10-11 13:13:40,2.208s,PASSED
+"tap(findTestObject(""Post_Rent/android.widget.RadioButton0 - Electronics""), 0)",,,,2019-10-11 13:13:40,2019-10-11 13:13:41,1.497s,PASSED
+"tap(findTestObject(""Post_Rent/android.widget.TextView0 - NEXT (2)""), 0)",,,,2019-10-11 13:13:41,2019-10-11 13:13:43,1.600s,PASSED
+"tap(findTestObject(""Post_Rent/android.widget.RadioButton0 - Your nearby neighbourhoods""), 0)",,,,2019-10-11 13:13:43,2019-10-11 13:13:44,1.231s,PASSED
+"tap(findTestObject(""Post_Rent/android.widget.ImageView0""), 0)",,,,2019-10-11 13:13:44,2019-10-11 13:13:46,1.779s,PASSED
+"tap(findTestObject(""Post_Rent/android.widget.TextView0 - POST (1)""), 0)",,,,2019-10-11 13:13:46,2019-10-11 13:13:49,3.656s,PASSED
+"tap(findTestObject(""Post_Rent/android.widget.FrameLayout0 (1)""), 0)",,,,2019-10-11 13:13:49,2019-10-11 13:13:51,1.306s,PASSED
+"tap(findTestObject(""Post_Rent/android.widget.LinearLayout0""), 0)",,,,2019-10-11 13:13:51,2019-10-11 13:13:54,3.564s,PASSED
+"tap(findTestObject(""Post_Rent/android.widget.TextView0 - Yes""), 0)",,,,2019-10-11 13:13:54,2019-10-11 13:13:56,1.259s,PASSED
+closeApplication(),,,,2019-10-11 13:13:56,2019-10-11 13:13:57,1.867s,PASSED
+,,,,,,,
+Test Cases/Post_Sell,,,,2019-10-11 13:13:57,2019-10-11 13:15:04,1m - 6.270s,PASSED
+"startApplication(apk, true)",,,,2019-10-11 13:13:57,2019-10-11 13:14:17,19.837s,PASSED
+"tap(findTestObject(""Post_Sell/android.widget.TextView0 - NEXT""), 0)",,,,2019-10-11 13:14:17,2019-10-11 13:14:22,4.514s,PASSED
+"tap(findTestObject(""Post_Sell/android.widget.TextView0 - LOGIN""), 0)",,,,2019-10-11 13:14:22,2019-10-11 13:14:24,1.659s,PASSED
+"setText(findTestObject(""Post_Sell/android.widget.EditText0 - Email ID""), ""sudheer@mailnesia.com"", 0)",,,,2019-10-11 13:14:24,2019-10-11 13:14:25,1.392s,PASSED
+"setText(findTestObject(""Post_Sell/android.widget.EditText0 - Password""), ""1234567"", 0)",,,,2019-10-11 13:14:25,2019-10-11 13:14:27,1.979s,PASSED
+"tap(findTestObject(""Post_Sell/android.widget.ImageButton0""), 0)",,,,2019-10-11 13:14:27,2019-10-11 13:14:28,1.524s,PASSED
+"tap(findTestObject(""Post_Sell/android.widget.TextView0 - LOGIN (1)""), 0)",,,,2019-10-11 13:14:28,2019-10-11 13:14:30,1.372s,PASSED
+"tap(findTestObject(""Post_Sell/android.widget.FrameLayout0""), 0)",,,,2019-10-11 13:14:30,2019-10-11 13:14:33,3.098s,PASSED
+"tap(findTestObject(""Post_Sell/android.widget.TextView0 - Post""), 0)",,,,2019-10-11 13:14:33,2019-10-11 13:14:36,3.244s,PASSED
+"tap(findTestObject(""Post_Sell/android.widget.RadioButton0 - Buy Sell or Rent""), 0)",,,,2019-10-11 13:14:36,2019-10-11 13:14:37,1.348s,PASSED
+"tap(findTestObject(""Post_Sell/android.widget.TextView0 - NEXT (1)""), 0)",,,,2019-10-11 13:14:37,2019-10-11 13:14:39,1.410s,PASSED
+"tap(findTestObject(""Post_Sell/android.widget.RadioButton0 - Sell""), 0)",,,,2019-10-11 13:14:39,2019-10-11 13:14:40,0.820s,PASSED
+"setText(findTestObject(""Post_Sell/android.widget.EditText0 - Title""), ""neighbourhood application "", 0)",,,,2019-10-11 13:14:40,2019-10-11 13:14:41,1.561s,PASSED
+"tap(findTestObject(""Post_Sell/android.widget.Switch0 - Off""), 0)",,,,2019-10-11 13:14:41,2019-10-11 13:14:43,1.473s,PASSED
+"setText(findTestObject(""Post_Sell/android.widget.EditText0 - Details (size color condition etc.)""), ""Zee5 india Kondapur colour blue "", 0)",,,,2019-10-11 13:14:43,2019-10-11 13:14:44,1.551s,PASSED
+"tap(findTestObject(""Post_Sell/android.widget.TextView0 - NEXT (2)""), 0)",,,,2019-10-11 13:14:44,2019-10-11 13:14:46,1.574s,PASSED
+"tap(findTestObject(""Post_Sell/android.widget.RadioButton0 - Bicycles""), 0)",,,,2019-10-11 13:14:46,2019-10-11 13:14:48,2.062s,PASSED
+"tap(findTestObject(""Post_Sell/android.widget.TextView0 - NEXT (2)""), 0)",,,,2019-10-11 13:14:48,2019-10-11 13:14:50,1.583s,PASSED
+"tap(findTestObject(""Post_Sell/android.widget.RadioButton0 - Your nearby neighbourhoods""), 0)",,,,2019-10-11 13:14:50,2019-10-11 13:14:51,1.145s,PASSED
+"tap(findTestObject(""Post_Sell/android.widget.ImageView0""), 0)",,,,2019-10-11 13:14:51,2019-10-11 13:14:52,1.731s,PASSED
+"tap(findTestObject(""Post_Sell/android.widget.TextView0 - POST (1)""), 0)",,,,2019-10-11 13:14:52,2019-10-11 13:14:56,3.788s,PASSED
+"tap(findTestObject(""Post_Sell/android.widget.FrameLayout0 (1)""), 0)",,,,2019-10-11 13:14:56,2019-10-11 13:14:57,1.320s,PASSED
+"tap(findTestObject(""Post_Sell/android.widget.LinearLayout0""), 0)",,,,2019-10-11 13:14:57,2019-10-11 13:15:00,2.994s,PASSED
+"tap(findTestObject(""Post_Sell/android.widget.TextView0 - Yes""), 0)",,,,2019-10-11 13:15:00,2019-10-11 13:15:02,1.369s,PASSED
+closeApplication(),,,,2019-10-11 13:15:02,2019-10-11 13:15:04,1.801s,PASSED
+,,,,,,,
+Test Cases/Recommendations,,,,2019-10-11 13:15:04,2019-10-11 13:16:04,59.956s,PASSED
+"startApplication(apk, true)",,,,2019-10-11 13:15:04,2019-10-11 13:15:23,19.682s,PASSED
+"tap(findTestObject(""Recommendations/android.widget.TextView0 - NEXT""), 0)",,,,2019-10-11 13:15:23,2019-10-11 13:15:28,4.336s,PASSED
+"tap(findTestObject(""Recommendations/android.widget.TextView0 - LOGIN""), 0)",,,,2019-10-11 13:15:28,2019-10-11 13:15:29,1.461s,PASSED
+"setText(findTestObject(""Recommendations/android.widget.EditText0 - Email ID""), ""sudheer@mailnesia.com"", 0)",,,,2019-10-11 13:15:29,2019-10-11 13:15:31,1.391s,PASSED
+"setText(findTestObject(""Recommendations/android.widget.EditText0 - Password""), ""1234567"", 0)",,,,2019-10-11 13:15:31,2019-10-11 13:15:33,1.946s,PASSED
+"tap(findTestObject(""Recommendations/android.widget.ImageButton0""), 0)",,,,2019-10-11 13:15:33,2019-10-11 13:15:34,1.504s,PASSED
+"tap(findTestObject(""Recommendations/android.widget.TextView0 - LOGIN (1)""), 0)",,,,2019-10-11 13:15:34,2019-10-11 13:15:35,1.403s,PASSED
+"tap(findTestObject(""Recommendations/android.widget.FrameLayout0""), 0)",,,,2019-10-11 13:15:35,2019-10-11 13:15:41,5.690s,PASSED
+"tap(findTestObject(""Recommendations/android.widget.TextView0 - Post""), 0)",,,,2019-10-11 13:15:41,2019-10-11 13:15:43,1.899s,PASSED
+"tap(findTestObject(""Recommendations/android.widget.RadioButton0 - Recommendations""), 0)",,,,2019-10-11 13:15:43,2019-10-11 13:15:44,1.368s,PASSED
+"tap(findTestObject(""Recommendations/android.widget.TextView0 - NEXT (1)""), 0)",,,,2019-10-11 13:15:44,2019-10-11 13:15:46,1.320s,PASSED
+"setText(findTestObject(""Recommendations/android.widget.EditText0 - Subject""), ""But man is not made for defeat. A man can be destroyed but not defeated"", 0)",,,,2019-10-11 13:15:46,2019-10-11 13:15:47,1.347s,PASSED
+"setText(findTestObject(""Recommendations/android.widget.EditText0 - Message""), ""We, Zee Entetainment Enterprised Limited (""we"", ""us"", ""ZEEL"") value the trust placed in use by You and therefore, we follow the highest standards of privacy guidelines to protect the information shared by You with us."", 0)",,,,2019-10-11 13:15:47,2019-10-11 13:15:49,2.040s,PASSED
+"tap(findTestObject(""Recommendations/android.widget.TextView0 - NEXT (2)""), 0)",,,,2019-10-11 13:15:49,2019-10-11 13:15:51,1.959s,PASSED
+"tap(findTestObject(""Recommendations/android.widget.TextView0 - POST (1)""), 0)",,,,2019-10-11 13:15:51,2019-10-11 13:15:55,3.995s,PASSED
+"tap(findTestObject(""Recommendations/android.widget.FrameLayout0 (1)""), 0)",,,,2019-10-11 13:15:55,2019-10-11 13:15:56,1.339s,PASSED
+"tap(findTestObject(""Recommendations/android.widget.TextView0 - Logout""), 0)",,,,2019-10-11 13:15:56,2019-10-11 13:16:00,4.046s,PASSED
+"tap(findTestObject(""Recommendations/android.widget.TextView0 - Yes""), 0)",,,,2019-10-11 13:16:00,2019-10-11 13:16:02,1.301s,PASSED
+closeApplication(),,,,2019-10-11 13:16:02,2019-10-11 13:16:04,1.830s,PASSED
+,,,,,,,
+Test Cases/User_Activity,,,,2019-10-11 13:16:04,2019-10-11 13:16:57,53.016s,PASSED
+"startApplication(apk, true)",,,,2019-10-11 13:16:04,2019-10-11 13:16:25,21.654s,PASSED
+"tap(findTestObject(""User_Activity/android.widget.TextView0 - NEXT""), 0)",,,,2019-10-11 13:16:25,2019-10-11 13:16:30,4.207s,PASSED
+"tap(findTestObject(""User_Activity/android.widget.TextView0 - LOGIN""), 0)",,,,2019-10-11 13:16:30,2019-10-11 13:16:31,1.437s,PASSED
+"setText(findTestObject(""User_Activity/android.widget.EditText0 - Email ID""), ""sudheer@mailnesia.com"", 0)",,,,2019-10-11 13:16:31,2019-10-11 13:16:32,1.424s,PASSED
+"setText(findTestObject(""User_Activity/android.widget.EditText0 - Password""), ""1234567"", 0)",,,,2019-10-11 13:16:32,2019-10-11 13:16:34,1.951s,PASSED
+"tap(findTestObject(""User_Activity/android.widget.ImageButton0""), 0)",,,,2019-10-11 13:16:34,2019-10-11 13:16:36,1.579s,PASSED
+"tap(findTestObject(""User_Activity/android.widget.TextView0 - LOGIN (1)""), 0)",,,,2019-10-11 13:16:36,2019-10-11 13:16:37,1.383s,PASSED
+"tap(findTestObject(""User_Activity/android.widget.FrameLayout0""), 0)",,,,2019-10-11 13:16:37,2019-10-11 13:16:42,4.835s,PASSED
+"tap(findTestObject(""User_Activity/android.widget.TextView0 - Settings""), 0)",,,,2019-10-11 13:16:42,2019-10-11 13:16:44,1.431s,PASSED
+"tap(findTestObject(""User_Activity/android.widget.TextView0 - Activity""), 0)",,,,2019-10-11 13:16:44,2019-10-11 13:16:44,0.774s,PASSED
+"tap(findTestObject(""User_Activity/android.widget.ImageButton0 (1)""), 0)",,,,2019-10-11 13:16:44,2019-10-11 13:16:48,4.109s,PASSED
+"tap(findTestObject(""User_Activity/android.widget.ImageView0""), 0)",,,,2019-10-11 13:16:48,2019-10-11 13:16:50,1.547s,PASSED
+"tap(findTestObject(""User_Activity/android.widget.LinearLayout0""), 0)",,,,2019-10-11 13:16:50,2019-10-11 13:16:54,3.523s,PASSED
+"tap(findTestObject(""User_Activity/android.widget.TextView0 - Yes""), 0)",,,,2019-10-11 13:16:54,2019-10-11 13:16:55,1.272s,PASSED
+closeApplication(),,,,2019-10-11 13:16:55,2019-10-11 13:16:57,1.803s,PASSED
+,,,,,,,
+Test Cases/User_Chat,,,,2019-10-11 13:16:57,2019-10-11 13:17:53,56.350s,PASSED
+"startApplication(apk, true)",,,,2019-10-11 13:16:57,2019-10-11 13:17:16,18.889s,PASSED
+"tap(findTestObject(""User_Chat/android.widget.TextView0 - NEXT""), 0)",,,,2019-10-11 13:17:16,2019-10-11 13:17:20,4.406s,PASSED
+"tap(findTestObject(""User_Chat/android.widget.TextView0 - LOGIN""), 0)",,,,2019-10-11 13:17:20,2019-10-11 13:17:22,1.604s,PASSED
+"setText(findTestObject(""User_Chat/android.widget.EditText0 - Email ID""), ""sudheer@mailnesia.com"", 0)",,,,2019-10-11 13:17:22,2019-10-11 13:17:23,1.379s,PASSED
+"setText(findTestObject(""User_Chat/android.widget.EditText0 - Password""), ""1234567"", 0)",,,,2019-10-11 13:17:23,2019-10-11 13:17:25,2.018s,PASSED
+"tap(findTestObject(""User_Chat/android.widget.ImageButton0""), 0)",,,,2019-10-11 13:17:25,2019-10-11 13:17:27,1.499s,PASSED
+"tap(findTestObject(""User_Chat/android.widget.TextView0 - LOGIN (1)""), 0)",,,,2019-10-11 13:17:27,2019-10-11 13:17:28,1.392s,PASSED
+"tap(findTestObject(""User_Chat/android.widget.FrameLayout0""), 0)",,,,2019-10-11 13:17:28,2019-10-11 13:17:34,5.853s,PASSED
+"tap(findTestObject(""User_Chat/android.widget.LinearLayout0""), 0)",,,,2019-10-11 13:17:34,2019-10-11 13:17:38,4.473s,PASSED
+"setText(findTestObject(""User_Chat/android.widget.EditText0""), ""Hiiiiiiiiiiii hello "", 0)",,,,2019-10-11 13:17:38,2019-10-11 13:17:39,0.832s,PASSED
+"tap(findTestObject(""User_Chat/android.widget.LinearLayout0 (1)""), 0)",,,,2019-10-11 13:17:39,2019-10-11 13:17:43,4.401s,PASSED
+"tap(findTestObject(""User_Chat/android.widget.ImageView0 (1)""), 0)",,,,2019-10-11 13:17:43,2019-10-11 13:17:45,1.665s,PASSED
+"tap(findTestObject(""User_Chat/android.widget.FrameLayout0 (1)""), 0)",,,,2019-10-11 13:17:45,2019-10-11 13:17:46,1.253s,PASSED
+"tap(findTestObject(""User_Chat/android.widget.LinearLayout0 (2)""), 0)",,,,2019-10-11 13:17:46,2019-10-11 13:17:50,3.459s,PASSED
+"tap(findTestObject(""User_Chat/android.widget.TextView0 - Yes""), 0)",,,,2019-10-11 13:17:50,2019-10-11 13:17:51,1.313s,PASSED
+closeApplication(),,,,2019-10-11 13:17:51,2019-10-11 13:17:53,1.827s,PASSED
+,,,,,,,
+Test Cases/User_Interest,,,,2019-10-11 13:17:53,2019-10-11 13:18:46,52.820s,PASSED
+"startApplication(apk, true)",,,,2019-10-11 13:17:53,2019-10-11 13:18:12,19.417s,PASSED
+"tap(findTestObject(""User_Interest/android.widget.TextView0 - SKIP""), 0)",,,,2019-10-11 13:18:12,2019-10-11 13:18:17,4.359s,PASSED
+"tap(findTestObject(""User_Interest/android.widget.TextView0 - LOGIN""), 0)",,,,2019-10-11 13:18:17,2019-10-11 13:18:18,1.655s,PASSED
+"setText(findTestObject(""User_Interest/android.widget.EditText0 - Email ID""), ""sudheer@mailnesia.com"", 0)",,,,2019-10-11 13:18:18,2019-10-11 13:18:20,1.408s,PASSED
+"setText(findTestObject(""User_Interest/android.widget.EditText0 - Password""), ""1234567"", 0)",,,,2019-10-11 13:18:20,2019-10-11 13:18:22,2.026s,PASSED
+"tap(findTestObject(""User_Interest/android.widget.ImageButton0""), 0)",,,,2019-10-11 13:18:22,2019-10-11 13:18:23,1.503s,PASSED
+"tap(findTestObject(""User_Interest/android.widget.TextView0 - LOGIN (1)""), 0)",,,,2019-10-11 13:18:23,2019-10-11 13:18:25,1.413s,PASSED
+"tap(findTestObject(""User_Interest/android.widget.FrameLayout0""), 0)",,,,2019-10-11 13:18:25,2019-10-11 13:18:28,3.367s,PASSED
+"tap(findTestObject(""User_Interest/android.widget.TextView0 - Settings""), 0)",,,,2019-10-11 13:18:28,2019-10-11 13:18:30,1.521s,PASSED
+"tap(findTestObject(""User_Interest/android.widget.TextView0 - Account""), 0)",,,,2019-10-11 13:18:30,2019-10-11 13:18:31,0.987s,PASSED
+"tap(findTestObject(""User_Interest/android.widget.TextView0 - Interests""), 0)",,,,2019-10-11 13:18:31,2019-10-11 13:18:33,1.898s,PASSED
+"tap(findTestObject(""User_Interest/android.widget.TextView0 - Video Games""), 0)",,,,2019-10-11 13:18:33,2019-10-11 13:18:34,1.490s,PASSED
+"tap(findTestObject(""User_Interest/android.widget.TextView0 - Science""), 0)",,,,2019-10-11 13:18:34,2019-10-11 13:18:36,1.544s,PASSED
+"tap(findTestObject(""User_Interest/android.widget.TextView0 - SAVE""), 0)",,,,2019-10-11 13:18:36,2019-10-11 13:18:38,1.943s,PASSED
+"tap(findTestObject(""User_Interest/android.widget.ImageView0""), 0)",,,,2019-10-11 13:18:38,2019-10-11 13:18:39,1.598s,PASSED
+"tap(findTestObject(""User_Interest/android.widget.LinearLayout0""), 0)",,,,2019-10-11 13:18:39,2019-10-11 13:18:43,3.497s,PASSED
+"tap(findTestObject(""User_Interest/android.widget.TextView0 - Yes""), 0)",,,,2019-10-11 13:18:43,2019-10-11 13:18:44,1.335s,PASSED
+closeApplication(),,,,2019-10-11 13:18:44,2019-10-11 13:18:46,1.776s,PASSED
+,,,,,,,
+Test Cases/User_Notifications,,,,2019-10-11 13:18:46,2019-10-11 13:19:38,52.123s,PASSED
+"startApplication(apk, true)",,,,2019-10-11 13:18:46,2019-10-11 13:19:06,19.835s,PASSED
+"tap(findTestObject(""User_Notification/android.widget.TextView0 - NEXT""), 0)",,,,2019-10-11 13:19:06,2019-10-11 13:19:10,4.139s,PASSED
+"tap(findTestObject(""User_Notification/android.widget.TextView0 - LOGIN""), 0)",,,,2019-10-11 13:19:10,2019-10-11 13:19:12,2.165s,PASSED
+"setText(findTestObject(""User_Notification/android.widget.EditText0 - Email ID""), ""sudheer@mailnesia.com"", 0)",,,,2019-10-11 13:19:12,2019-10-11 13:19:13,1.393s,PASSED
+"setText(findTestObject(""User_Notification/android.widget.EditText0 - Password""), ""1234567"", 0)",,,,2019-10-11 13:19:13,2019-10-11 13:19:15,2.020s,PASSED
+"tap(findTestObject(""User_Notification/android.widget.ImageButton0""), 0)",,,,2019-10-11 13:19:15,2019-10-11 13:19:17,1.535s,PASSED
+"tap(findTestObject(""User_Notification/android.widget.TextView0 - LOGIN (1)""), 0)",,,,2019-10-11 13:19:17,2019-10-11 13:19:18,1.418s,PASSED
+"tap(findTestObject(""User_Notification/android.widget.FrameLayout0""), 0)",,,,2019-10-11 13:19:18,2019-10-11 13:19:24,5.299s,PASSED
+"tap(findTestObject(""User_Notification/android.widget.TextView0 - Settings""), 0)",,,,2019-10-11 13:19:24,2019-10-11 13:19:25,1.422s,PASSED
+"tap(findTestObject(""User_Notification/android.widget.TextView0 - Notifications""), 0)",,,,2019-10-11 13:19:25,2019-10-11 13:19:26,1.034s,PASSED
+"tap(findTestObject(""User_Notification/android.widget.ImageView0""), 0)",,,,2019-10-11 13:19:26,2019-10-11 13:19:30,3.570s,PASSED
+"tap(findTestObject(""User_Notification/android.widget.ImageView0""), 0)",,,,2019-10-11 13:19:30,2019-10-11 13:19:31,1.549s,PASSED
+"tap(findTestObject(""User_Notification/android.widget.LinearLayout0""), 0)",,,,2019-10-11 13:19:31,2019-10-11 13:19:35,3.523s,PASSED
+"tap(findTestObject(""User_Notification/android.widget.TextView0 - Yes""), 0)",,,,2019-10-11 13:19:35,2019-10-11 13:19:36,1.279s,PASSED
+closeApplication(),,,,2019-10-11 13:19:36,2019-10-11 13:19:38,1.830s,PASSED
+,,,,,,,
+Test Cases/User_Profile_Update,,,,2019-10-11 13:19:38,2019-10-11 13:20:38,1m - 0.041s,PASSED
+"startApplication(apk, true)",,,,2019-10-11 13:19:38,2019-10-11 13:19:57,19.430s,PASSED
+"tap(findTestObject(""User_Profile_Update/android.widget.TextView0 - NEXT""), 0)",,,,2019-10-11 13:19:57,2019-10-11 13:20:02,4.838s,PASSED
+"tap(findTestObject(""User_Profile_Update/android.widget.TextView0 - LOGIN""), 0)",,,,2019-10-11 13:20:02,2019-10-11 13:20:04,2.136s,PASSED
+"setText(findTestObject(""User_Profile_Update/android.widget.EditText0 - Email ID""), ""sudheer@mailnesia.com"", 0)",,,,2019-10-11 13:20:04,2019-10-11 13:20:06,1.382s,PASSED
+"setText(findTestObject(""User_Profile_Update/android.widget.EditText0 - Password""), ""1234567"", 0)",,,,2019-10-11 13:20:06,2019-10-11 13:20:08,1.984s,PASSED
+"tap(findTestObject(""User_Profile_Update/android.widget.ImageButton0""), 0)",,,,2019-10-11 13:20:08,2019-10-11 13:20:09,1.518s,PASSED
+"tap(findTestObject(""User_Profile_Update/android.widget.TextView0 - LOGIN (1)""), 0)",,,,2019-10-11 13:20:09,2019-10-11 13:20:11,1.444s,PASSED
+"tap(findTestObject(""User_Profile_Update/android.widget.FrameLayout0""), 0)",,,,2019-10-11 13:20:11,2019-10-11 13:20:16,5.108s,PASSED
+"tap(findTestObject(""User_Profile_Update/android.widget.LinearLayout0""), 0)",,,,2019-10-11 13:20:16,2019-10-11 13:20:20,3.776s,PASSED
+"tap(findTestObject(""User_Profile_Update/android.widget.TextView0 - Edit""), 0)",,,,2019-10-11 13:20:20,2019-10-11 13:20:21,1.593s,PASSED
+"tap(findTestObject(""User_Profile_Update/android.widget.RadioButton0 - Others""), 0)",,,,2019-10-11 13:20:21,2019-10-11 13:20:25,3.550s,PASSED
+"tap(findTestObject(""User_Profile_Update/android.widget.TextView0 - SAVE""), 0)",,,,2019-10-11 13:20:25,2019-10-11 13:20:28,3.503s,PASSED
+"tap(findTestObject(""User_Profile_Update/android.widget.ImageButton0 (1)""), 0)",,,,2019-10-11 13:20:28,2019-10-11 13:20:31,2.927s,PASSED
+"tap(findTestObject(""User_Profile_Update/android.widget.LinearLayout0 (1)""), 0)",,,,2019-10-11 13:20:31,2019-10-11 13:20:35,3.572s,PASSED
+"tap(findTestObject(""User_Profile_Update/android.widget.TextView0 - Yes""), 0)",,,,2019-10-11 13:20:35,2019-10-11 13:20:36,1.296s,PASSED
+closeApplication(),,,,2019-10-11 13:20:36,2019-10-11 13:20:38,1.899s,PASSED
+,,,,,,,
+Test Cases/Create_Poll_1,,,,2019-10-11 13:20:38,2019-10-11 13:21:43,1m - 5.055s,PASSED
+"startApplication(apk, true)",,,,2019-10-11 13:20:38,2019-10-11 13:20:59,20.887s,PASSED
+"tap(findTestObject(""Create_Poll_1/android.widget.TextView0 - NEXT""), 0)",,,,2019-10-11 13:20:59,2019-10-11 13:21:03,4.375s,PASSED
+"tap(findTestObject(""Create_Poll_1/android.widget.TextView0 - LOGIN""), 0)",,,,2019-10-11 13:21:03,2019-10-11 13:21:05,1.723s,PASSED
+"setText(findTestObject(""Create_Poll_1/android.widget.EditText0 - Email ID""), ""sudheer@mailnesia.com"", 0)",,,,2019-10-11 13:21:05,2019-10-11 13:21:06,1.423s,PASSED
+"setText(findTestObject(""Create_Poll_1/android.widget.EditText0 - Password""), ""1234567"", 0)",,,,2019-10-11 13:21:06,2019-10-11 13:21:08,2.010s,PASSED
+"tap(findTestObject(""Create_Poll_1/android.widget.ImageButton0""), 0)",,,,2019-10-11 13:21:08,2019-10-11 13:21:10,1.491s,PASSED
+"tap(findTestObject(""Create_Poll_1/android.widget.TextView0 - LOGIN (1)""), 0)",,,,2019-10-11 13:21:10,2019-10-11 13:21:11,1.397s,PASSED
+"tap(findTestObject(""Create_Poll_1/android.widget.FrameLayout0""), 0)",,,,2019-10-11 13:21:11,2019-10-11 13:21:15,3.260s,PASSED
+"tap(findTestObject(""Create_poll/android.widget.TextView0 - Poll""), 0)",,,,2019-10-11 13:21:15,2019-10-11 13:21:18,3.553s,PASSED
+"setText(findTestObject(""Create_Poll_1/android.widget.EditText0 - Ask a question.""), ""do u like movies"", 0)",,,,2019-10-11 13:21:18,2019-10-11 13:21:20,1.367s,PASSED
+"setText(findTestObject(""Create_Poll_1/android.widget.EditText0 - Option 1 (Max 25 chars)""), ""yes"", 0)",,,,2019-10-11 13:21:20,2019-10-11 13:21:21,1.951s,PASSED
+"setText(findTestObject(""Create_Poll_1/android.widget.EditText0 - Option 2 (Max 25 chars)""), ""no"", 0)",,,,2019-10-11 13:21:21,2019-10-11 13:21:23,1.965s,PASSED
+"tap(findTestObject(""Create_Poll_1/android.widget.TextView0 - 1 Week""), 0)",,,,2019-10-11 13:21:23,2019-10-11 13:21:27,3.929s,PASSED
+"tap(findTestObject(""Create_Poll_1/android.widget.TextView0 - 1 Day""), 0)",,,,2019-10-11 13:21:27,2019-10-11 13:21:28,1.068s,PASSED
+"tap(findTestObject(""Create_Poll_1/android.widget.TextView0 - NEXT (1)""), 0)",,,,2019-10-11 13:21:28,2019-10-11 13:21:30,1.392s,PASSED
+"tap(findTestObject(""Create_Poll_1/android.widget.TextView0 - NEXT (1)""), 0)",,,,2019-10-11 13:21:30,2019-10-11 13:21:32,1.968s,PASSED
+"tap(findTestObject(""Create_Poll_1/android.widget.FrameLayout0 (1)""), 0)",,,,2019-10-11 13:21:32,2019-10-11 13:21:36,4.627s,PASSED
+"tap(findTestObject(""Create_Poll_1/android.widget.LinearLayout0""), 0)",,,,2019-10-11 13:21:36,2019-10-11 13:21:40,3.526s,PASSED
+"tap(findTestObject(""Create_Poll_1/android.widget.TextView0 - Yes""), 0)",,,,2019-10-11 13:21:40,2019-10-11 13:21:41,1.266s,PASSED
+closeApplication(),,,,2019-10-11 13:21:41,2019-10-11 13:21:43,1.792s,PASSED
+,,,,,,,
+Test Cases/Post_Buy_1,,,,2019-10-11 13:21:43,2019-10-11 13:22:48,1m - 4.556s,PASSED
+"startApplication(apk, true)",,,,2019-10-11 13:21:43,2019-10-11 13:22:02,19.047s,PASSED
+"tap(findTestObject(""Post_Buy_1/android.widget.TextView0 - NEXT""), 0)",,,,2019-10-11 13:22:02,2019-10-11 13:22:06,4.280s,PASSED
+"tap(findTestObject(""Post_Buy_1/android.widget.TextView0 - LOGIN""), 0)",,,,2019-10-11 13:22:06,2019-10-11 13:22:09,2.198s,PASSED
+"setText(findTestObject(""Post_Buy_1/android.widget.EditText0 - Email ID""), ""sudheer@mailnesia.com"", 0)",,,,2019-10-11 13:22:09,2019-10-11 13:22:10,1.404s,PASSED
+"setText(findTestObject(""Post_Buy_1/android.widget.EditText0 - Password""), ""1234567"", 0)",,,,2019-10-11 13:22:10,2019-10-11 13:22:12,2.035s,PASSED
+"tap(findTestObject(""Post_Buy_1/android.widget.ImageButton0""), 0)",,,,2019-10-11 13:22:12,2019-10-11 13:22:14,1.557s,PASSED
+"tap(findTestObject(""Post_Buy_1/android.widget.TextView0 - LOGIN (1)""), 0)",,,,2019-10-11 13:22:14,2019-10-11 13:22:15,1.413s,PASSED
+"tap(findTestObject(""Post_Buy_1/android.widget.FrameLayout0""), 0)",,,,2019-10-11 13:22:15,2019-10-11 13:22:19,3.936s,PASSED
+"tap(findTestObject(""Post_Buy_1/android.widget.TextView0 - Post""), 0)",,,,2019-10-11 13:22:19,2019-10-11 13:22:23,3.624s,PASSED
+"tap(findTestObject(""Post_Buy_1/android.widget.RadioButton0 - Buy Sell or Rent""), 0)",,,,2019-10-11 13:22:23,2019-10-11 13:22:24,1.532s,PASSED
+"tap(findTestObject(""Post_Buy_1/android.widget.TextView0 - NEXT (1)""), 0)",,,,2019-10-11 13:22:24,2019-10-11 13:22:26,1.403s,PASSED
+"setText(findTestObject(""Post_Buy_1/android.widget.EditText0 - Title""), ""The best and most beautiful things in the world cannot be seen or even touched - they must be felt with the heart"", 0)",,,,2019-10-11 13:22:26,2019-10-11 13:22:27,1.355s,PASSED
+"tap(findTestObject(""Post_Buy_1/android.widget.Switch0 - Off""), 0)",,,,2019-10-11 13:22:27,2019-10-11 13:22:28,1.577s,PASSED
+"setText(findTestObject(""Post_Buy_1/android.widget.EditText0 - Details (size color condition etc.)""), ""We, Zee Entetainment Enterprised Limited (""we"", ""us"", ""ZEEL"") value the trust placed in use by You and therefore, we follow the highest standards of privacy guidelines to protect the information shared by You with us."", 0)",,,,2019-10-11 13:22:28,2019-10-11 13:22:30,1.536s,PASSED
+"tap(findTestObject(""Post_Buy_1/android.widget.TextView0 - NEXT (2)""), 0)",,,,2019-10-11 13:22:30,2019-10-11 13:22:32,1.681s,PASSED
+"tap(findTestObject(""Post_Buy_1/android.widget.RadioButton0 - Furniture""), 0)",,,,2019-10-11 13:22:32,2019-10-11 13:22:34,2.249s,PASSED
+"tap(findTestObject(""Post_Buy_1/android.widget.TextView0 - NEXT (2)""), 0)",,,,2019-10-11 13:22:34,2019-10-11 13:22:36,1.767s,PASSED
+"tap(findTestObject(""Post_Buy_1/android.widget.TextView0 - POST (1)""), 0)",,,,2019-10-11 13:22:36,2019-10-11 13:22:40,3.964s,PASSED
+"tap(findTestObject(""Post_Buy_1/android.widget.FrameLayout0 (1)""), 0)",,,,2019-10-11 13:22:40,2019-10-11 13:22:41,1.289s,PASSED
+"tap(findTestObject(""Post_Buy_1/android.widget.LinearLayout0""), 0)",,,,2019-10-11 13:22:41,2019-10-11 13:22:44,3.528s,PASSED
+"tap(findTestObject(""Post_Buy_1/android.widget.TextView0 - Yes""), 0)",,,,2019-10-11 13:22:44,2019-10-11 13:22:46,1.262s,PASSED
+closeApplication(),,,,2019-10-11 13:22:46,2019-10-11 13:22:48,1.834s,PASSED
+,,,,,,,
+Test Cases/User_End_To_End_Flow,,,,2019-10-11 13:22:48,2019-10-11 13:24:36,1m - 48.077s,PASSED
+"startApplication(apk, true)",,,,2019-10-11 13:22:48,2019-10-11 13:23:07,19.684s,PASSED
+"tap(findTestObject(""User_End_To_End_Flow/android.widget.TextView0 - NEXT""), 0)",,,,2019-10-11 13:23:07,2019-10-11 13:23:12,4.538s,PASSED
+"tap(findTestObject(""User_End_To_End_Flow/android.widget.TextView0 - LOGIN""), 0)",,,,2019-10-11 13:23:12,2019-10-11 13:23:13,1.587s,PASSED
+"setText(findTestObject(""User_End_To_End_Flow/android.widget.EditText0 - Email ID""), ""sudheer@mailnesia.com"", 0)",,,,2019-10-11 13:23:13,2019-10-11 13:23:15,1.380s,PASSED
+"setText(findTestObject(""User_End_To_End_Flow/android.widget.EditText0 - Password""), ""1234567"", 0)",,,,2019-10-11 13:23:15,2019-10-11 13:23:17,2.006s,PASSED
+"tap(findTestObject(""User_End_To_End_Flow/android.widget.ImageButton0""), 0)",,,,2019-10-11 13:23:17,2019-10-11 13:23:18,1.518s,PASSED
+"tap(findTestObject(""User_End_To_End_Flow/android.widget.TextView0 - LOGIN (1)""), 0)",,,,2019-10-11 13:23:18,2019-10-11 13:23:20,1.381s,PASSED
+Thread.sleep(30000),,,,2019-10-11 13:23:20,2019-10-11 13:23:50,30.002s,PASSED
+"tap(findTestObject(""User_Chat/android.widget.FrameLayout0""), 0)",,,,2019-10-11 13:23:50,2019-10-11 13:23:52,1.807s,PASSED
+"tap(findTestObject(""User_Chat/android.widget.LinearLayout0""), 0)",,,,2019-10-11 13:23:52,2019-10-11 13:23:56,4.368s,PASSED
+"setText(findTestObject(""User_End_To_End_Flow/android.widget.EditText0""), ""Hiiiiii hello "", 0)",,,,2019-10-11 13:23:56,2019-10-11 13:23:57,0.820s,PASSED
+"tap(findTestObject(""User_End_To_End_Flow/android.widget.ImageButton0 (1)""), 0)",,,,2019-10-11 13:23:57,2019-10-11 13:23:59,2.050s,PASSED
+"tap(findTestObject(""User_End_To_End_Flow/android.widget.ImageView0""), 0)",,,,2019-10-11 13:23:59,2019-10-11 13:24:01,1.905s,PASSED
+"tap(findTestObject(""User_End_To_End_Flow/android.widget.FrameLayout0 (1)""), 0)",,,,2019-10-11 13:24:01,2019-10-11 13:24:02,1.535s,PASSED
+"tap(findTestObject(""User_End_To_End_Flow/android.widget.LinearLayout0 (1)""), 0)",,,,2019-10-11 13:24:02,2019-10-11 13:24:05,2.832s,PASSED
+"tap(findTestObject(""User_End_To_End_Flow/android.widget.TextView0 - NEXT (1)""), 0)",,,,2019-10-11 13:24:05,2019-10-11 13:24:06,1.222s,PASSED
+"setText(findTestObject(""User_End_To_End_Flow/android.widget.EditText0 - Subject""), ""I love you the more in that I believe you had liked me for my own sake and for nothing else.But man is not made for defeat. A man can be destroyed but not defeated"", 0)",,,,2019-10-11 13:24:06,2019-10-11 13:24:08,1.288s,PASSED
+"setText(findTestObject(""User_End_To_End_Flow/android.widget.EditText0 - Message""), ""When you reach the end of your rope, tie a knot in it and hang on.Let us sacrifice our today so that our children can have a better tomorrow.The most difficult thing is the decision to act, the rest is merely tenacity. The fears are paper tigers. You can do anything you decide to do. You can act to change and control your life; and the procedure, the process is its own reward"", 0)",,,,2019-10-11 13:24:08,2019-10-11 13:24:10,1.993s,PASSED
+"tap(findTestObject(""User_End_To_End_Flow/android.widget.TextView0 - NEXT (2)""), 0)",,,,2019-10-11 13:24:10,2019-10-11 13:24:11,1.893s,PASSED
+"tap(findTestObject(""User_End_To_End_Flow/android.widget.TextView0 - POST""), 0)",,,,2019-10-11 13:24:11,2019-10-11 13:24:15,3.195s,PASSED
+"tap(findTestObject(""User_End_To_End_Flow/android.widget.FrameLayout0 (2)""), 0)",,,,2019-10-11 13:24:15,2019-10-11 13:24:19,4.691s,PASSED
+"tap(findTestObject(""User_End_To_End_Flow/android.widget.TextView0 - View All""), 0)",,,,2019-10-11 13:24:19,2019-10-11 13:24:22,3.087s,PASSED
+"tap(findTestObject(""User_End_To_End_Flow/android.widget.ImageButton0 (2)""), 0)",,,,2019-10-11 13:24:22,2019-10-11 13:24:25,2.604s,PASSED
+"tap(findTestObject(""User_End_To_End_Flow/android.widget.FrameLayout0 (3)""), 0)",,,,2019-10-11 13:24:25,2019-10-11 13:24:26,1.238s,PASSED
+"tap(findTestObject(""User_End_To_End_Flow/android.widget.LinearLayout0 (2)""), 0)",,,,2019-10-11 13:24:26,2019-10-11 13:24:28,1.301s,PASSED
+"tap(findTestObject(""User_End_To_End_Flow/android.widget.ImageView0 (2)""), 0)",,,,2019-10-11 13:24:28,2019-10-11 13:24:29,1.293s,PASSED
+"tap(findTestObject(""User_End_To_End_Flow/android.widget.LinearLayout0 (3)""), 0)",,,,2019-10-11 13:24:29,2019-10-11 13:24:32,3.536s,PASSED
+"tap(findTestObject(""User_End_To_End_Flow/android.widget.TextView0 - Yes""), 0)",,,,2019-10-11 13:24:32,2019-10-11 13:24:34,1.303s,PASSED
+closeApplication(),,,,2019-10-11 13:24:34,2019-10-11 13:24:36,1.930s,PASSED

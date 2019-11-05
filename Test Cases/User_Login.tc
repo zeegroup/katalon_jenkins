@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>User_Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0ccab622-575e-44cd-901d-82a42f05579d</testCaseGuid>
+   <variable>
+      <defaultValue>'anjaneyulu.s@zee.esselgroup.com'</defaultValue>
+      <description></description>
+      <id>8505b8d5-d756-4121-9721-c8397529103b</id>
+      <masked>false</masked>
+      <name>emailID</name>
+   </variable>
+   <variable>
+      <defaultValue>'Anji@17081994'</defaultValue>
+      <description></description>
+      <id>101b3124-b2eb-48a4-a360-d34efea2b9a9</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Signup</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>48fc7464-0271-4300-ab37-921ad3f0cfa1</testCaseGuid>
+   <variable>
+      <defaultValue>'(\'anji.sangisetti\' + x) + \'@gmail.com\''</defaultValue>
+      <description></description>
+      <id>299a4638-92a5-4ab8-af2d-00a12a616eb3</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'(((Math.random() * 90000000) + 10000000) as int)'</defaultValue>
+      <description></description>
+      <id>5d4c2c2d-1e9d-473a-b1f0-f8dd12c8ca06</id>
+      <masked>false</masked>
+      <name>aNumber</name>
+   </variable>
+</TestCaseEntity>
